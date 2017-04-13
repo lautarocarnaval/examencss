@@ -37,7 +37,7 @@ a > img:hover[src^="img/joseph"] {
 	-webkit-transform: rotate(10deg);
     transform: rotate(10deg);
 }
-a > img:hover[src^="img/cris"] {
+a > img:hover[src^="img/tamara"] {
 	-webkit-transform: translate(20px,-5px);
     transform: translate(20px,-5px);
     box-shadow: 2px 2px #82c3a6;
