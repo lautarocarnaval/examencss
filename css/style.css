@@ -14,8 +14,14 @@ img {
 header {
 	background-color: #5b7989;
 	border-radius: 10px 10px 0px 0px;
-	min-height: 80px;
 	padding: 2%;
+	height: 80px;
+}
+
+h1 {font-size: 1.8em;}
+nav > h3 > a {
+	color: #fff;
+	vertical-align: middle;
 }
 
 #central {
@@ -56,10 +62,7 @@ header > h1 {
 	float: left;
 	text-shadow: 2px 2px #02010a;
 }
-header > nav {
-	float: right;
-	vertical-align: middle;
-}
+
 .container {
 	max-width: 900px;
 	margin: 0px auto;
@@ -75,10 +78,12 @@ footer > .column {
 }
 }
 @media (max-width: 899px){
+header {height: 150px;}
 header > h1 {
 	color: white;
 	text-shadow: 2px 2px #02010a;
 }
+nav {width: 100%;}
 .container {
 	width: 100%;
 	text-align: center;
