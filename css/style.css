@@ -1,0 +1,92 @@
+body {
+	font-family: Dancing Script;
+	background-color: #02010a;
+}
+img {
+	box-shadow: 2px 2px #02010a;
+	-webkit-box-shadow: 2px 2px #02010a;
+	-moz-box-shadow: 2px 2px #02010a;
+	width: 100%;
+	-webkit-transition: 0.8s ease-in-out;
+    transition: 0.8s ease-in-out;
+}
+
+header {
+	background-color: #5b7989;
+	border-radius: 10px 10px 0px 0px;
+	min-height: 80px;
+	padding: 2%;
+}
+
+#central {
+	background-color: #82c3a6;
+	text-align: center;
+	padding: 2%
+}
+#central > img {width: 100%;}
+
+#secundario, #galeria {
+	background-color: #d5c75f;
+	border: 1px;
+	padding: 2%;
+	text-align: center;
+}
+
+.second {width: 49.5%;}
+a > img:hover[src^="img/joseph"] {
+	-webkit-transform: rotate(10deg);
+    transform: rotate(10deg);
+}
+a > img:hover[src^="img/cris"] {
+	-webkit-transform: translate(20px,-5px);
+    transform: translate(20px,-5px);
+    box-shadow: 2px 2px #82c3a6;
+    border: 2px black;
+}
+
+footer {
+	background-color: #C6d5c5;
+	border-radius: 0px 0px 10px 10px;
+	min-height: 250px;
+}
+
+@media (min-width: 900px){
+header > h1 {
+	color: white;
+	float: left;
+	text-shadow: 2px 2px #02010a;
+}
+header > nav {
+	float: right;
+	vertical-align: middle;
+}
+.container {
+	max-width: 900px;
+	margin: 0px auto;
+	border-radius: 10px;
+}
+#galeria > img {
+	width: 32%;
+}
+footer > .column {
+	width: 21%;
+	padding: 2%;
+	float: left;
+}
+}
+@media (max-width: 899px){
+header > h1 {
+	color: white;
+	text-shadow: 2px 2px #02010a;
+}
+.container {
+	width: 100%;
+	text-align: center;
+}
+.second {width: 100%}
+footer > .column {
+	width: 100%;
+	padding: 2%;
+	text-align: left;
+}
+}
